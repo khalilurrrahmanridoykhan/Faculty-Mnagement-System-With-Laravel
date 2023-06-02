@@ -1,0 +1,127 @@
+html,body{
+    height:100%;
+}
+
+.welcome-panel{
+    height:70vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.dropzone{
+    background: white;
+    border-radius: 5px;
+    border: 2px dashed rgb(0, 135, 247);
+    border-image: none;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.edit_image_center {
+    margin: 0 auto;
+    display: inherit !important;
+}
+
+.servicedeleteicon{
+    position: absolute;
+    right: 30px !important;
+    padding-top: 5px;
+}
+
+.cursor-pointer-fordrag{
+    cursor: pointer;
+}
+
+.timeslotinput{
+    background-color: bisque !important;
+}
+
+select[name=dayforassign] {
+    pointer-events: none;
+    background-color: bisque;
+   }
+
+   select[name=room_no_for_class_for_assign] {
+    pointer-events: none;
+    background-color: bisque;
+   }
+
+   .iconclassfordashbord{
+    width: -webkit-fill-available;
+   }
+   .textfordeshbor{
+    text-align: center;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+
+   }
+
+   .deshobordatabox{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+   }
+   .parent {
+    /* background: aquamarine; */
+    height: 150px;
+    width: 100px;
+    position: relative;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8%;
+    background-color: #ffffff4d;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+
+  .child {
+    /* background: orange; */
+    /* width: 100px; */
+    /* height: 150px; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px; */
+  }
+
+  .parent:hover{
+    background-color: aqua;
+  }
+
+/*
+  .course-assinment-box{
+    background-color: aqua;
+  }
+
+  .course-assinment-box:hover{
+    background-color:bisque !important;
+  }
+
+  .course-assinment-box:active{
+    background-color:#007bff !important;
+  }
+
+  .course-assignment-icon:active{
+    color: #fff !important;
+  }
+  .course-assignment-text:active{
+    color: #fff !important;
+  }
+  .course-assignment-icon{
+    color: #000;
+  }
+  .course-assignment-text{
+    color: #000;
+  } */
